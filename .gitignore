@@ -1,0 +1,46 @@
+# ── Streamlit secrets (NIGDY na GitHub) ──────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Środowiska wirtualne ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+ENV/
+
+# ── Zmienne środowiskowe ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Dane i pliki tymczasowe ───────────────────────────────────────────────────
+*.csv
+*.xlsx
+*.xls
+data/
+
+# ── System operacyjny ─────────────────────────────────────────────────────────
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini         # Windows
+
+# ── IDE / edytory ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logi ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
